@@ -8,4 +8,4 @@ rvm:
   - 2.7
   - 3.0
   - ruby-head
-  - jruby-head
+  - truffleruby-head

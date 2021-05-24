@@ -37,6 +37,8 @@ class OnlyBlankTest < Minitest::Test
   end
 
   def test_use_fast_blank?
-    assert_nil "hello".method(:blank?).source_location
+    if RUBY_ENGINE == 'ruby'
+      assert_nil "hello".method(:blank?).source_location
+    end
   end
 end

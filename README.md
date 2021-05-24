@@ -1,3 +1,5 @@
+# only_blank [![Build Status](https://travis-ci.com/zw963/only_blank.svg?branch=master)](https://travis-ci.com/zw963/only_blank) [![Gem Version](https://badge.fury.io/rb/only_blank.svg)](http://badge.fury.io/rb/only_blank)
+
 # only_blank
 A tiny library for bring the awesome `blank?` method to ruby.
 

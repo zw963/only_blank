@@ -16,7 +16,7 @@ Along with the fastest [fast_blank] gem for `String#blank?`.'
   s.require_paths               = ['lib']
   s.files                       = `git ls-files bin lib *.md LICENSE`.split("\n")
 
-  s.add_runtime_dependency 'fast_blank', '1.0.0'
+  s.add_runtime_dependency 'fast_blank', '>= 1.0'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'ritual', '~>0.4'
 end
