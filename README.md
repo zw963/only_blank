@@ -1,8 +1,6 @@
 # only_blank
 A tiny library for bring the awesome `blank?` method to ruby.
 
-Along with the fastest [fast_blank] gem for `String#blank?`.
-
 ## Getting Started
 
 Add to your Gemfile
