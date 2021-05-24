@@ -2,3 +2,4 @@
 *.gem
 .env
 .env.local
+Gemfile.lock
