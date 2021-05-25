@@ -18,5 +18,4 @@ Along with the fastest [fast_blank] gem for `String#blank?`.'
 
   s.add_runtime_dependency 'fast_blank', '>= 1.0'
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'ritual', '~>0.4'
 end
