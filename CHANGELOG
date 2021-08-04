@@ -1,2 +1,4 @@
 == LATEST
+  * Add present? method.
+== 2021-05-25
   * Initial version.
