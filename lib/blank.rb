@@ -7,7 +7,9 @@
 #   Sequel.extension :blank
 
 [FalseClass, Object, NilClass, Numeric, String, TrueClass].each do |klass|
-  # :nocov:
+  # This self-aliasing is done to avoid warning messages in verbose warning mode
+  # if an existing blank? method is already defined.
+  # It's the officially recommended way of avoiding the warning messages.
   if klass.method_defined?(:blank?)
     klass.send(:alias_method, :blank?, :blank?)
   end
@@ -54,4 +56,9 @@ class TrueClass
   def blank?
     false
   end
+end
+
+[FalseClass, Object, NilClass, Numeric, String, TrueClass].each do |klass|
+  # define blank? method
+  klass.define_method(:present?) { !blank? }
 end
