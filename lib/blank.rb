@@ -59,6 +59,7 @@ class TrueClass
 end
 
 [FalseClass, Object, NilClass, Numeric, String, TrueClass].each do |klass|
-  # define blank? method
+  # define present?, presence method
   klass.define_method(:present?) { !blank? }
+  klass.define_method(:presence) { self if present? }
 end
