@@ -1,4 +1,6 @@
-== LATEST
-  * Add present? method.
+== 2021-08-05
+  * Add presence method, bump to version 1.2.0
+== 2021-08-04
+  * Add present? method, bump to version 1.1.0
 == 2021-05-25
   * Initial version.
