@@ -60,6 +60,6 @@ end
 
 [FalseClass, Object, NilClass, Numeric, String, TrueClass].each do |klass|
   # define present?, presence method
-  klass.define_method(:present?) { !blank? }
-  klass.define_method(:presence) { self if present? }
+  klass.send(:define_method, :present?) { !blank? }
+  klass.send(:define_method, :presence) { self if present? }
 end
