@@ -49,6 +49,8 @@ class String
   def blank?
     strip.empty?
   end
+  # avoiding method redefine warning message too.
+  String.send(:alias_method, :blank?, :blank?)
 end
 
 class TrueClass
