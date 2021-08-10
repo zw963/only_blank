@@ -1,3 +1,5 @@
+== 2021-08-10
+  * Avoiding blank? method redefine warning, bump to version 1.2.1	
 == 2021-08-05
   * Add presence method, bump to version 1.2.0
 == 2021-08-04

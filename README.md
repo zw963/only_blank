@@ -9,11 +9,11 @@ Add to your Gemfile
 
 ```rb
 gem 'only_blank'
-
-Then, you get three method `blank?`, `present?`, `presence` defined on following class.
-
-FalseClass, Object, NilClass, Numeric, String, TrueClass.
 ```
+
+Then, you get three method `blank?`, `present?`, `presence` defined on following class free.
+
+`FalseClass`, `Object`, `NilClass`, `Numeric`, `String`, `TrueClass`.
 
 ## Credits
 
