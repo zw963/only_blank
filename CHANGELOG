@@ -1,8 +1,19 @@
-== 2021-08-10
-  * Avoiding blank? method redefine warning, bump to version 1.2.1	
-== 2021-08-05
-  * Add presence method, bump to version 1.2.0
-== 2021-08-04
-  * Add present? method, bump to version 1.1.0
-== 2021-05-25
-  * Initial version.
+	== 1.2.2 2022-04-23
+
+	* Add ritual as development dependency for bump version.
+	
+	== 2021-08-10
+	
+	* Avoiding blank? method redefine warning, bump to version 1.2.1	
+	
+	== 2021-08-05
+	
+	* Add presence method, bump to version 1.2.0
+
+	== 2021-08-04
+	
+	* Add present? method, bump to version 1.1.0
+
+	== 2021-05-25
+
+	* Initial version.
