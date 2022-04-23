@@ -1,6 +1,5 @@
-# only_blank [![Build Status](https://travis-ci.com/zw963/only_blank.svg?branch=master)](https://travis-ci.com/zw963/only_blank) [![Gem Version](https://badge.fury.io/rb/only_blank.svg)](http://badge.fury.io/rb/only_blank)
+# only_blank [![Build Status](https://travis-ci.com/zw963/only_blank.svg?branch=master)](https://app.travis-ci.com/github/zw963/only_blank)[![Gem Version](https://badge.fury.io/rb/only_blank.svg)](http://badge.fury.io/rb/only_blank)![](https://ruby-gem-downloads-badge.herokuapp.com/only_blank?type=total)
 
-# only_blank
 A tiny library for bring the ruby on rails awesome `blank?` method and friends to ruby.
 
 ## Getting Started
